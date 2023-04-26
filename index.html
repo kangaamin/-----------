@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Log In / Sign Up - pure css </title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'><link rel="stylesheet" href="./style.css">
+
+<!-- 시작전에 읽어 주십셔
+아래
+mt 는margin-top의 줄임말로, 요소의 상단 여백을 설정
+sm은small 줄임말로, 요소에 대해 작은 크기를 설정
+pt는 padding-top의 줄임말로, 요소의 상단 패딩을 설정
+pb은padding-bottom의 줄임말로, 요소의 하단 패딩을 설정
+mx는 margin-x의 줄임말 . 여기서 "x"는 왼쪽, 오른쪽, 자동 중 하나일 수 있음 예를 들어 컨테이너의 왼쪽 가장자리와 오른쪽 가장자리 사이와 같이 요소의 가로 축에 공간을 설정하기 위해 CSS에서 사용됨
+col은 colum의 약자이며 그리드 시스템 내에서 열을 정의하기 위해 Bootstrap과 같은 그리드 기반 웹 디자인 프레임워크에서 일반적으로 사용됨
+py는 "padding-y"의 줄임말 여기서 "y"는 상단, 하단 중 하나일 수 있음 예를 들어 컨테이너의 위쪽 가장자리와 아래쪽 가장자리 사이에 요소의 세로 축에 있는 공간을 설정하기 위해 CSS에서 사용됨
+등 이유를 알수 없는 클래스 명이 포함되어있는데 클래스 명만으로도 ui디자인이 가능합니당.
+은비얌 정리해서 보내니까 참고 해 실무에서 쓰이는 법이얌
+-->
+
+
+
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<a href="https://www.coupang.com/" class="logo" target="_blank">
+		<img src="https://static.coupangcdn.com/image/static/login/logo-coupang.x2.20201201.png" alt="">
+	</a>
+
+	<div class="section">
+		<div class="container">
+			<div class="row full-height justify-content-center">
+				<div class="col-12 text-center align-self-center py-5">
+					<div class="section pb-5 pt-5 pt-sm-2 text-center">
+						<h6 class="mb-0 pb-3"><span>로그인</span><span>회원가입</span></h6>
+			          	<input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+			          	<label for="reg-log"></label>
+						<div class="card-3d-wrap mx-auto">
+							<div class="card-3d-wrapper">
+								<div class="card-front">
+									<div class="center-wrap">
+										<div class="section text-center">
+											<h4 class="mb-4 pb-3">로그인</h4>
+											<div class="form-group">
+												<input type="email" name="logemail" class="form-style" placeholder="이메일♥" id="logemail" autocomplete="off">
+												<i class="input-icon uil uil-at"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="password" name="logpass" class="form-style" placeholder="비밀번호♥" id="logpass" autocomplete="off">
+												<i class="input-icon uil uil-lock-alt"></i>
+											</div>
+											<a href="#" class="btn mt-4">로그인 하기</a>
+                            				<p class="mb-0 mt-4 text-center"><a href="https://login.coupang.com/login/accountInfoFind.pang" class="link">비밀번호를 잊으셨나요?</a></p>
+				      					</div>
+			      					</div>
+			      				</div>
+								<div class="card-back">
+									<div class="center-wrap">
+										<div class="section text-center">
+											<h4 class="mb-4 pb-3">가입하기</h4>
+											<div class="form-group">
+												<input type="text" name="logname" class="form-style" placeholder="이름" id="logname" autocomplete="off">
+												<i class="input-icon uil uil-user"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="email" name="logemail" class="form-style" placeholder="이메일" id="logemail" autocomplete="off">
+												<i class="input-icon uil uil-at"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="password" name="logpass" class="form-style" placeholder="비밀번호 입력" id="logpass" autocomplete="off">
+												<i class="input-icon uil uil-lock-alt"></i>
+											</div>
+											<a href="#" class="btn mt-4">가입하기</a>
+				      					</div>
+			      					</div>
+			      				</div>
+			      			</div>
+			      		</div>
+			      	</div>
+		      	</div>
+	      	</div>
+	    </div>
+	</div>
+<!-- partial -->
+  
+</body>
+</html>
